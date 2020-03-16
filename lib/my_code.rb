@@ -9,5 +9,7 @@ def map(source_array)
   new
 end
 
+def reduce(array)
+
 map(source_array){ |n| n * n }
 map(source_array{ })
