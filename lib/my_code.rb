@@ -3,7 +3,7 @@ def map(source_array)
   new = []
   i = 0
   while i < source_array.length do
-  new << yeild(array[i])
+  new << yeild(source_array[i])
   i +=1 
   end
   new
