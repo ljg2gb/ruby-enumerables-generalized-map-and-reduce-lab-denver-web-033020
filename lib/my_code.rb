@@ -24,6 +24,3 @@ def reduce(array, starting_value = nil)
   sum
 end
 
-#map(source_array){ |n| n * n }
-#map(source_array{ })
-
