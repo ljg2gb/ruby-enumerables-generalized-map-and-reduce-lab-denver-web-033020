@@ -3,7 +3,7 @@ def map(source_array)
   new = []
   i = 0
   while i < source_array.length do
-  new << yeild(source_array[i])
+  new << yield(source_array[i])
   i +=1 
   end
   new
@@ -19,7 +19,7 @@ def reduce(array, starting_value = nil)
   end
   
   while i < starting_value.length 
-    sum = yeild(sum, array[i])
+    sum = yield(sum, array[i])
     i+=1 
   end
   sum
