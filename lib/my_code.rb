@@ -11,15 +11,18 @@ end
 
 def reduce(array, starting_value = nil)
   if starting_value
-    num1 =sv 
+    sum =sv 
     i = 0 
   else
-    num1 = array[0]
+    sum = array[0]
     i = 1 
   end
   
   while i < starting_value.length 
-    yeild(num1, array[i])
+    sum = yeild(sum, array[i])
+    i+=1 
+  end
+  sum
 end
 
 map(source_array){ |n| n * n }
